@@ -95,11 +95,11 @@ and one that invokes a normal method on the parent.
 
     module.exports = require('soop')(Coder);
 
-== Browser support ==
+## Browser support 
 
 In order to use soop within a browser, [browserify](https://github.com/substack/node-browserify) 
 can be used. A custom *prelude* script need to be used in browserify/browser-pack for the 
-function .load to work. This custom script is provided at [browser path](/browser)./. The follwing is an example of
+function #load to work. This custom script is provided at [browser path](/browser)./. The follwing is an example of
 a browserify script to bundle soop classes:
 ```
   var fs = require('fs');
